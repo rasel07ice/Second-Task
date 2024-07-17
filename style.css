@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  color: black;
+}
+h1 {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+p {
+  font-size: 1.25rem;
+}
+
+/* utility class */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 90vw;
+  margin: auto;
+}
+.cards {
+  margin-block: 50px;
+  background-color: white;
+  padding: 15px 20px;
+  gap: 10px;
+  justify-content: space-between;
+}
+.card {
+  padding: 20px;
+  gap: 20px;
+  border-radius: 3px;
+  flex-basis: 30%;
+  justify-content: space-between;
+}
+.first-card {
+  background-color: #0dcbf0;
+}
+.second-card {
+  background-color: #0e6ffd;
+}
+.third-card {
+  background-color: #386641;
+}
